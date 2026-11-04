@@ -1,0 +1,18 @@
+---
+layout: base.njk
+title: Home
+permalink: /index.html
+---
+<section class="hero"><div class="hero-copy"><p class="eyebrow">➜ MINECRAFT BEDROCK DEVELOPER<span class="blink">_</span></p><h1>Alberto<span class="accent">35M</span></h1><p class="intro">Creating addons, maps and custom systems for Minecraft Bedrock.</p><div class="actions"><a class="btn primary" href="#projects">▶ &nbsp; VIEW PROJECTS</a><a class="btn outline" href="https://discord.gg/fHU9XCZup" target="_blank" rel="noopener noreferrer"><img class="discord-pixel-icon" src="/assets/images/discord-pixel.png" alt="" aria-hidden="true"> COMMUNITY</a></div></div><div class="hero-art" role="img" aria-label="Pixel art illustration of Alberto35M in a purple night landscape"></div></section>
+<div class="section-divider"><span>◇</span></div>
+<section id="projects" class="projects"><div class="section-heading"><div><h2><img class="projects-folder-icon" src="/assets/images/folder-pixel-v15.png" alt="" aria-hidden="true"> MY PROJECTS</h2></div><p>ADDONS · MAPS · TOOLS</p></div><div class="filters" role="group" aria-label="Filter projects"><button class="filter active" data-filter="All" aria-pressed="true">All</button><button class="filter" data-filter="Addon" aria-pressed="false">Addons</button><button class="filter" data-filter="Map" aria-pressed="false">Maps</button><button class="filter" data-filter="Tool" aria-pressed="false">Tools</button><label class="search"><span aria-hidden="true">⌕</span><input type="search" id="project-search" placeholder="Search projects..." aria-label="Search projects"></label></div><div class="project-grid" id="project-grid">{% for project in collections.projects %}
+<article class="project-card project-card-v19" data-type="{{ project.data.category }}" data-search="{{ (project.data.title + ' ' + (project.data.shortDescription or project.data.summary or '')) | lower }}">
+  <a class="cover-link" href="/proyectos/{{ project.fileSlug }}/" aria-label="Explore {{ project.data.title }}"><img src="{{ project.data.cover or '/images/placeholder.svg' }}" alt="Cover image for {{ project.data.title }}" loading="lazy"></a>
+  <div class="card-body">
+    <h3><a href="/proyectos/{{ project.fileSlug }}/">{{ project.data.title }}</a></h3>
+    <p class="card-description">{{ project.data.shortDescription or project.data.summary or '' }}</p>
+    <div class="card-meta"><span class="card-category">{{ project.data.category | categoryEn }}</span><span class="card-version">{{ project.data.version }}</span></div>
+    <div class="card-actions"><a class="card-action card-more" href="/proyectos/{{ project.fileSlug }}/">View More <span aria-hidden="true">↗</span></a>{% if project.data.curseforge %}<a class="card-action card-download" href="{{ project.data.curseforge }}" target="_blank" rel="noopener noreferrer">Download <span aria-hidden="true">↓</span></a>{% else %}<span class="card-action card-download unavailable" title="Download link coming soon" aria-disabled="true">Coming Soon</span>{% endif %}</div>
+  </div>
+</article>{% endfor %}</div><p class="empty" id="empty-state" hidden>No projects match your filters.</p></section>
+<section id="about" class="about"><div><p class="eyebrow">// ABOUT ME</p><h2>Hi, I'm Alberto35M</h2></div><p>I create Minecraft Bedrock experiences, including customizable systems, addons and maps. Explore my projects and find their official downloads on CurseForge.</p></section>
