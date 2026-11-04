@@ -2,6 +2,8 @@ backend:
   name: github
   repo: Alberto35M/Alberto35M-Portfolio
   branch: main
+  base_url: https://alberto35m-auth.luis-1301-albert.workers.dev
+  auth_endpoint: auth
   # La conexión OAuth se agregará en el siguiente paso.
 
 media_folder: public/images
