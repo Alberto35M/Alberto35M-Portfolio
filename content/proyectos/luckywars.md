@@ -2,7 +2,7 @@
 shortDescription: Fight across floating islands, open Lucky Blocks, and survive the chaos.
 summary: Island PvP map featuring Lucky Blocks, randomized loot and fast-paced matches.
 permalink: false
-title: LuckyWars
+title: LuckyWars 12
 category: Map
 version: 1.26+
 cover: /images/luckywars-cover.png
