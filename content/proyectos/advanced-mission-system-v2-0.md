@@ -15,14 +15,14 @@ features:
   - "Advanced Mission System V2.0 is available in three languages:  English Spanish Portuguese"
   - Players can choose their language directly from the mission interface.
   - "Compatibility:  The add-on is fully compatible with custom items, mobs, and blocks from other mods, offering seamless integration into your unique Minecraft worlds."
-  - https://r2.mcpedl.com/submissions/231551/images/advanced-mission-system-v20_5.png
-  - https://r2.mcpedl.com/submissions/231551/images/advanced-mission-system-v20_6.png
-  - https://r2.mcpedl.com/submissions/231551/images/advanced-mission-system-v20_7.png
-  - https://r2.mcpedl.com/submissions/231551/images/advanced-mission-system-v20_8.png
 gallery:
   - https://r2.mcpedl.com/submissions/231551/images/advanced-mission-system-v20_2.png
   - https://r2.mcpedl.com/submissions/231551/images/advanced-mission-system-v20_3.png
   - https://r2.mcpedl.com/submissions/231551/images/advanced-mission-system-v20_4.png
+  - https://r2.mcpedl.com/submissions/231551/images/advanced-mission-system-v20_5.png
+  - https://r2.mcpedl.com/submissions/231551/images/advanced-mission-system-v20_6.png
+  - https://r2.mcpedl.com/submissions/231551/images/advanced-mission-system-v20_7.png
+  - https://r2.mcpedl.com/submissions/231551/images/advanced-mission-system-v20_8.png
 ---
 🆕 What's New in V2.0:
 Completely redesigned user interface for a sleeker, more intuitive experience.
