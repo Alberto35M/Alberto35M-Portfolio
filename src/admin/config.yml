@@ -72,7 +72,7 @@ collections:
         default: 0
         value_type: int
 
-      - label: Enlace de descarga (CurseForge)
+      - label: Enlace de descarga (cualquier plataforma)
         name: curseforge
         widget: string
         hint: Pega la dirección completa https://...

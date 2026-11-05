@@ -57,7 +57,7 @@
             h('div',{className:'tags'},h('span',{className:'chip'},'◇ '+category),h('span',{className:'chip'},version)),
             h('h1',null,title),h('p',null,summary),
             h('div',{className:'actions'},
-              curseforge?h('span',{className:'btn primary'},'↓ View on CurseForge ↗'):null,
+              curseforge?h('span',{className:'btn primary'},'↓ DOWNLOAD NOW ↗'):null,
               trailer?h('span',{className:'btn outline'},'▶ Watch trailer'):null
             )
           )
