@@ -111,10 +111,10 @@ collections:
         collapsed: true
         summary: "Captura"
         required: false
-        field:
-          label: Imagen
-          name: image
-          widget: image
+        fields:
+          - {label: Imagen, name: image, widget: image}
+          - {label: Título (opcional), name: title, widget: string, required: false}
+          - {label: Descripción (opcional), name: description, widget: text, required: false}
 
       - label: Descripción completa
         name: body
