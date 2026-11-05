@@ -1,5 +1,5 @@
 ---
-title: test
+title: Jail System
 category: Addon
 version: 1.26+
 shortDescription: asasas
