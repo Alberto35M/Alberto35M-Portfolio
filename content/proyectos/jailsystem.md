@@ -1,5 +1,5 @@
 ---
-title: JailSystem
+title: Jail System
 category: Tool
 version: 1.26+
 shortDescription: Jail players in a glowing particle cell with a live countdown. Includes a custom Jail Wand, invulnerable prisoners, protected areas, and persistent sentences. Admin-only and easy to use.
