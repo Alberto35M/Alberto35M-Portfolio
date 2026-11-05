@@ -9,6 +9,7 @@ published: true
 order: 0
 curseforge: https://mcpedl.com/advanced-mission-system-v2-0/
 trailer: https://www.youtube.com/watch?v=xJgcT1Zcfk4&embeds_referring_euri=https%3A%2F%2Fmcpedl.com%2F
+videoType: tutorial
 features:
   - "Multilanguage Support:"
   - "Advanced Mission System V2.0 is available in three languages:  English Spanish Portuguese"
