@@ -1,7 +1,7 @@
 ---
 title: Health Indicator V2
 category: Addon
-version: 1.26+
+version: 1.21+
 shortDescription: Add clean Minecraft-style health bars above players and mobs to see exact HP at a glance; three indicator styles, real-time updates, and a single command to switch styles.
 summary: Add clean Minecraft-style health bars above players and mobs to see exact HP at a glance; three indicator styles, real-time updates, and a single command to switch styles.
 cover: https://media.forgecdn.net/attachments/2076/35/mcpdl-png.png
