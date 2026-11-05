@@ -3,6 +3,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ 'src/assets': 'assets' });
   eleventyConfig.addPassthroughCopy({ 'public/images': 'images' });
   eleventyConfig.addPassthroughCopy({ 'src/admin': 'admin' });
+  eleventyConfig.addPassthroughCopy({ 'src/studio': 'studio' });
   eleventyConfig.addCollection('projects', function(api) {
     return api.getFilteredByGlob('content/proyectos/*.md').filter(p => p.data.published === true).sort((a,b) => (b.data.order||0)-(a.data.order||0));
   });
