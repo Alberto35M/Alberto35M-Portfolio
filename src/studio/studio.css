@@ -26,3 +26,27 @@ button{font-size:14px;font-weight:600;line-height:1.4}
 .project-info small,.pill{font-size:13px}
 .stat span,.aside-foot{color:#d0b5dd}
 @media(max-width:650px){.heading h1{font-size:29px}.form-panel h2{font-size:23px}}
+
+/* Alberto35M Studio — same typography as the public portfolio */
+body{font-family:'Pixelify Sans',monospace;font-size:19px;line-height:1.3;font-weight:600;-webkit-font-smoothing:auto}
+button,input,textarea,select{font-family:'Pixelify Sans',monospace;font-size:18px;line-height:1.25}
+button{font-family:'Press Start 2P',monospace;font-size:10px;font-weight:400;line-height:1.65;letter-spacing:0;padding:12px 14px}
+.primary{font-family:'Press Start 2P',monospace;font-size:10px;line-height:1.65;font-weight:400}
+.brand,.eyebrow,.aside-title{font-family:'Press Start 2P',monospace}
+.brand small{font-family:'Pixelify Sans',monospace;font-size:16px}
+.heading h1,.welcome h1{font-family:'Press Start 2P',monospace;font-size:clamp(18px,2vw,27px);line-height:1.65;font-weight:400}
+.welcome h1{font-size:clamp(23px,3vw,40px)}
+.form-panel h2{font-family:'Pixelify Sans',monospace;font-size:27px;line-height:1.2;font-weight:700}
+.form-panel h3{font-family:'Pixelify Sans',monospace;font-size:22px}
+.form-panel label{font-family:'Pixelify Sans',monospace;font-size:19px;font-weight:600;line-height:1.3}
+.form-panel label small{font-family:'Pixelify Sans',monospace;font-size:16px;font-weight:500}
+input:not([type=checkbox]):not([type=file]),select,textarea{font-family:'Pixelify Sans',monospace;font-size:19px;line-height:1.35;padding:11px 12px}
+input::placeholder,textarea::placeholder{color:#c5b1d0;opacity:1}
+.nav{font-family:'Pixelify Sans',monospace;font-size:19px;font-weight:700;line-height:1.3}
+.hint,.heading p,.preview-head small,.preview-note{font-family:'Pixelify Sans',monospace;font-size:17px}
+.preview-head b{font-family:'Pixelify Sans',monospace;font-size:18px}
+.project-info strong{font-family:'Pixelify Sans',monospace;font-size:23px}
+.project-info small,.pill{font-family:'Pixelify Sans',monospace;font-size:16px}
+.eyebrow{font-size:10px;line-height:1.8}
+.aside-title{font-size:9px;line-height:1.8}
+@media(max-width:650px){.heading h1{font-size:19px}.form-panel h2{font-size:23px}button,.primary{font-size:9px}}
