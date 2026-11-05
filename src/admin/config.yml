@@ -16,22 +16,22 @@ display_url: https://alberto35m.pages.dev
 
 collections:
   - name: proyectos
-    label: Projects
-    label_singular: Project
+    label: Mis proyectos
+    label_singular: Proyecto
     folder: content/proyectos
     create: true
     delete: true
     slug: "{{slug}}"
     extension: md
     format: frontmatter
-    preview: false
+    preview: true
 
     fields:
-      - label: Project name
+      - label: Nombre del proyecto
         name: title
         widget: string
 
-      - label: Category
+      - label: Categoría
         name: category
         widget: select
         options:
@@ -39,64 +39,73 @@ collections:
           - Map
           - Tool
 
-      - label: Minecraft version
+      - label: Versión de Minecraft
         name: version
         widget: string
         default: "1.26+"
 
-      - label: Short description (project cards)
+      - label: Descripción corta (tarjetas)
         name: shortDescription
         widget: text
-        hint: One or two sentences shown below the project title.
+        hint: Aparece debajo del título en la tarjeta. Una o dos frases.
 
-      - label: General summary (project detail)
+      - label: Resumen de la página
         name: summary
         widget: text
+        hint: Introducción que aparece junto a la portada en la página del proyecto.
 
-      - label: Cover image
+      - label: Portada principal
         name: cover
         widget: image
         required: true
 
-      - label: Published
+      - label: Mostrar en el portafolio
         name: published
         widget: boolean
+        hint: Actívalo cuando quieras que aparezca en la web.
         default: false
 
-      - label: Display order
+      - label: Orden de aparición
         name: order
         widget: number
+        hint: Un número más alto aparece antes.
         default: 0
         value_type: int
 
-      - label: CurseForge link
+      - label: Enlace de descarga (CurseForge)
         name: curseforge
         widget: string
+        hint: Pega la dirección completa https://...
         required: false
 
-      - label: YouTube trailer
+      - label: Enlace del tráiler (YouTube)
         name: trailer
         widget: string
+        hint: Opcional. Enlace completo al vídeo.
         required: false
 
-      - label: Features
+      - label: Características destacadas
         name: features
         widget: list
+        collapsed: true
+        summary: "{{fields.feature}}"
         required: false
         field:
-          label: Feature
+          label: Característica
           name: feature
           widget: string
 
-      - label: Gallery
+      - label: Galería de capturas
         name: gallery
         widget: list
+        collapsed: true
+        summary: "Captura"
         required: false
         field:
-          label: Image
+          label: Imagen
           name: image
           widget: image
 
-      - label: Full description
+      - label: Descripción completa
         name: body
         widget: markdown

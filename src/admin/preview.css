@@ -1,0 +1,17 @@
+/* Preview-only layout; public style.css supplies actual component styling. */
+html{background:#09050f;color:#faf1ff}body{margin:0;background:#09050f;color:#faf1ff}
+.a35-preview{padding:20px 24px 50px;max-width:1080px;margin:auto;font-family:'Pixelify Sans',sans-serif}
+.a35-preview .preview-note{font-family:'Pixelify Sans',sans-serif;color:#dbaff3;font-size:17px;margin:0 0 16px}
+.a35-preview .preview-label{font-family:'Press Start 2P',monospace;font-size:11px;color:#d47afa;line-height:1.8;margin:0 0 12px}
+.a35-preview .detail{padding:0!important;margin:0!important;max-width:none!important}
+.a35-preview .detail-hero{margin-top:12px}
+.a35-preview .detail-cover img{display:block;width:100%;height:100%;object-fit:cover}
+.a35-preview .detail-intro h1{overflow-wrap:anywhere}
+.a35-preview .rich-text{overflow-wrap:anywhere}
+.a35-preview .preview-card-wrap{max-width:430px;margin:0 auto 32px}
+.a35-preview .project-card{width:100%;height:auto}
+.a35-preview .project-card .cover-link img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}
+.a35-preview .preview-empty{padding:22px;border:2px dashed #a54cc9;text-align:center;color:#caa8dd}
+.a35-preview .preview-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px}
+.a35-preview .preview-gallery img{width:100%;aspect-ratio:16/9;object-fit:cover}
+@media(max-width:800px){.a35-preview{padding:12px}.a35-preview .detail-hero{display:block}.a35-preview .detail-cover{margin-bottom:20px}}

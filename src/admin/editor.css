@@ -1,0 +1,6 @@
+/* Decap editor improvements. Only admin UI, never public site. */
+:root{--a35-purple:#bc4bec}
+body{font-family:Arial,sans-serif}
+/* Keep the original Decap controls and keyboard navigation functional. */
+[data-slate-editor]{min-height:160px}
+input,textarea{accent-color:var(--a35-purple)}
