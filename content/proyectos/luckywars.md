@@ -1,22 +1,24 @@
 ---
-title: LuckyWars 12
+title: LuckyWars
 category: Map
 version: 1.26+
-shortDescription: Fight across floating islands, open Lucky Blocks, and survive the chaos.
+shortDescription: Break Lucky Blocks, battle your friends, and conquer 6 floating-island arenas! Customize your matches and put your luck to the test in LuckyWars for Minecraft Bedrock.
 summary: Island PvP map featuring Lucky Blocks, randomized loot and fast-paced matches.
-cover: /images/luckywars-cover.png
+cover: https://media.forgecdn.net/attachments/2104/573/mcpedl-jpg.jpg
 published: true
-order: 20
-curseforge: ""
-trailer: ""
+order: 0
+curseforge: https://www.curseforge.com/minecraft-bedrock/maps/lucky-wars-map
+trailer: https://www.youtube.com/watch?v=JFxRRa-cJzY&t=1s
 features:
-  - Varied islands and environments
-  - Lucky Blocks and randomized loot
-  - Map voting system
+  - 6 maps to discover Choose your next battleground
+  - "\_Play your way  \_Customize the experience before each match"
+  - Bring your friends.
+  - "Edition: Minecraft Bedrock"
+  - "Player: 2 or more"
 gallery:
-  - /images/1793840171571-generated-image-1.png
+  - https://media.forgecdn.net/attachments/description/null/description_afc224d3-ab0a-4063-a0a0-f876ca88fee5.png
 permalink: false
 ---
-LuckyWars is a Minecraft Bedrock map focused on island-based PvP. Customize matches and take on challenges with your friends.
+Your next block could change everything!
 
-**Before publishing:** replace the sample cover and add the official CurseForge link through the admin panel.
+Welcome to LuckyWars, a multiplayer map for Minecraft Bedrock where luck meets combat. Break Lucky Blocks, collect your gear, and face your friends on floating islands. Will fortune give you the edge, or will you have to fight your way to victory?
