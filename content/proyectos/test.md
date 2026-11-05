@@ -1,5 +1,5 @@
 ---
-title: Jail System
+title: Jail System 1
 category: Addon
 version: 1.26+
 shortDescription: asasas
