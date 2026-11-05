@@ -1,10 +1,10 @@
 ---
+shortDescription: Fight across floating islands, open Lucky Blocks, and survive the chaos.
+summary: Island PvP map featuring Lucky Blocks, randomized loot and fast-paced matches.
 permalink: false
-title: LuckyWars
+title: LuckyWars v2
 category: Map
-version: "1.26+"
-shortDescription: "Fight across floating islands, open Lucky Blocks, and survive the chaos."
-summary: "Island PvP map featuring Lucky Blocks, randomized loot and fast-paced matches."
+version: 1.26+
 cover: /images/luckywars-cover.png
 published: true
 order: 20
@@ -14,7 +14,9 @@ features:
   - Varied islands and environments
   - Lucky Blocks and randomized loot
   - Map voting system
-gallery: []
+gallery:
+  - /images/mcpedl.png
+  - /images/luckywars-cover.png
 ---
 LuckyWars is a Minecraft Bedrock map focused on island-based PvP. Customize matches and take on challenges with your friends.
 
