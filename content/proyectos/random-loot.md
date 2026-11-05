@@ -1,7 +1,7 @@
 ---
 title: Random Loot
 category: Addon
-version: 1.26+
+version: 1.21+
 shortDescription: Transform your battles in Minecraft with this exciting addon that gives each eliminated mob a 45% chance of dropping random loot and a 15% chance of generating mysterious structures, such as houses and temples.
 summary: Turn every encounter with mobs into an adventure filled with treasures and discoveries! This addon introduces a unique system of rewards and exploration, making each mob eliminated an opportunity to gain surprise loot and reveal structures throughout the world.
 cover: https://st2.mcpedl.com/submissions/122800/100/miniatura_1-520x245.png
