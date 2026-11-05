@@ -78,10 +78,20 @@ collections:
         hint: Pega la dirección completa https://...
         required: false
 
-      - label: Enlace del tráiler (YouTube)
+      - label: Video del proyecto (URL)
         name: trailer
         widget: string
-        hint: Opcional. Enlace completo al vídeo.
+        hint: Opcional. Enlace completo del video.
+        required: false
+
+      - label: Tipo de video
+        name: videoType
+        widget: select
+        options:
+          - {label: "Tráiler — Watch Trailer", value: trailer}
+          - {label: "Demostración — Watch Video", value: video}
+          - {label: "Tutorial — Watch Tutorial", value: tutorial}
+        default: trailer
         required: false
 
       - label: Características destacadas
