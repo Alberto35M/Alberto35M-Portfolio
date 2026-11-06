@@ -6,7 +6,7 @@ shortDescription: Jail players in a glowing particle cell with a live countdown.
 summary: Jail players in a glowing particle cell with a live countdown. Includes a custom Jail Wand, invulnerable prisoners, protected areas, and persistent sentences. Admin-only and easy to use.
 cover: https://media.forgecdn.net/attachments/2149/212/mcpedl-png.png
 published: true
-order: 0
+order: 1
 curseforge: https://www.curseforge.com/minecraft-bedrock/scripts/jail-system
 trailer: ""
 videoType: trailer
