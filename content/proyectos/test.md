@@ -6,9 +6,10 @@ shortDescription: New Survival Add-On! The skies are raining loot chests full of
 summary: New Survival Add-On! The skies are raining loot chests full of incredible treasures! Discover enchanted weapons, rare resources, and powerful potions as you travel the world. With over 450 unique loot tables, each chest brings a new surprise. Are you ready to claim the best rewards?
 cover: https://st2.mcpedl.com/submissions/121868/100/effectedit_1-520x245.png
 published: true
-order: 0
+order: 1
 curseforge: https://mcpedl.com/rain-of-chest/
 trailer: ""
+videoType: trailer
 features:
   - Enchanted weapons and armor
   - Rare and valuable resources
