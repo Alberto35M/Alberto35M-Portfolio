@@ -6,7 +6,7 @@ shortDescription: Add clean Minecraft-style health bars above players and mobs t
 summary: Add clean Minecraft-style health bars above players and mobs to see exact HP at a glance; three indicator styles, real-time updates, and a single command to switch styles.
 cover: https://media.forgecdn.net/attachments/2076/35/mcpdl-png.png
 published: true
-order: 2
+order: 5
 curseforge: https://www.curseforge.com/minecraft-bedrock/scripts/health-indicator-v2-0
 trailer: ""
 videoType: trailer
