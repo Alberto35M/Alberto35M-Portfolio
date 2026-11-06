@@ -7,7 +7,7 @@ summary: Jail players in a glowing particle cell with a live countdown. Includes
 cover: https://media.forgecdn.net/attachments/2149/212/mcpedl-png.png
 published: true
 order: 0
-curseforge: ""
+curseforge: https://www.curseforge.com/minecraft-bedrock/scripts/jail-system
 trailer: ""
 videoType: trailer
 features:
@@ -19,8 +19,8 @@ features:
   - Roleplay servers (police, prisons, courts)
   - Any admin or moderator team that wants clean, visual punishments
 gallery:
-  - https://media.forgecdn.net/attachments/description/null/description_33a7da30-101a-4895-8b64-9ba593be213a.png
-  - https://media.forgecdn.net/attachments/description/null/description_04e6042e-8c39-4e47-88a8-5408ca72fb66.png
+  - image: https://media.forgecdn.net/attachments/description/null/description_33a7da30-101a-4895-8b64-9ba593be213a.png
+  - image: https://media.forgecdn.net/attachments/description/null/description_04e6042e-8c39-4e47-88a8-5408ca72fb66.png
 ---
 Lock Down Rule-Breakers in Style
 
