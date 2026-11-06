@@ -6,7 +6,7 @@ shortDescription: Break Lucky Blocks, battle your friends, and conquer 6 floatin
 summary: Island PvP map featuring Lucky Blocks, randomized loot and fast-paced matches.
 cover: https://media.forgecdn.net/attachments/2104/573/mcpedl-jpg.jpg
 published: true
-order: 3
+order: 6
 curseforge: https://www.curseforge.com/minecraft-bedrock/maps/lucky-wars-map
 trailer: https://www.youtube.com/watch?v=JFxRRa-cJzY&t=1s
 videoType: trailer
